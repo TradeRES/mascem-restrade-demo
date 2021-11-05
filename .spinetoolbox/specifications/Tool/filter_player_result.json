@@ -1,0 +1,21 @@
+{
+    "name": "filter player result",
+    "tooltype": "python",
+    "includes": [
+        "filterPlayer.py"
+    ],
+    "description": "",
+    "inputfiles": [
+        "outputMarket.json"
+    ],
+    "inputfiles_opt": [],
+    "outputfiles": [
+        "outputPlayer.json"
+    ],
+    "cmdline_args": [
+        "Player",
+        "3"
+    ],
+    "execute_in_work": true,
+    "includes_main_path": "../../../MarketRunner"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "run eletricity market service",
+    "tooltype": "python",
+    "includes": [
+        "runMarket.py",
+        "resources/generalSchema.json",
+        "resources/mibelExample.json"
+    ],
+    "description": "",
+    "inputfiles": [
+        "input.json"
+    ],
+    "inputfiles_opt": [],
+    "outputfiles": [
+        "outputMarket.json"
+    ],
+    "cmdline_args": [],
+    "execute_in_work": true,
+    "includes_main_path": "../../../MarketRunner"
+}

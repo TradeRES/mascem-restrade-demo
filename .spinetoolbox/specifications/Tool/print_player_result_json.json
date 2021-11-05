@@ -1,0 +1,16 @@
+{
+    "name": "print player result json",
+    "tooltype": "python",
+    "includes": [
+        "printPlayerResultJson.py"
+    ],
+    "description": "",
+    "inputfiles": [
+        "outputPlayer.json"
+    ],
+    "inputfiles_opt": [],
+    "outputfiles": [],
+    "cmdline_args": [],
+    "execute_in_work": true,
+    "includes_main_path": "../../.."
+}

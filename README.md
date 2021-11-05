@@ -1,31 +1,9 @@
-# Project template for Spine Toolbox
+# EMS-MIBEL-RESTrade
 
-This is a template repository for Git-versioned Spine Toolbox projects.
-To create a new GitHub repository based on this template, click on the **Use this template** button.
+There are five components inside the EMS-MIBEL-RESTrade Spine ToolBox project:
 
-## Ignored files
-
-Some files are ignored by default:
-- output files created by project execution
-- temporary and log files
-
-Other project-specific ignores can be added to the [.gitignore](.gitignore) file.
-
-
-## Folder strucure
-
-### `data`
-
-This folder could be used for storing the original data files. 
-Please add metadata and licensing information as well.
-
-
-### `scripts`
-
-This folder could be used for storing processing scripts and their tool specifications.
-
-
-## License and Terms of Use
-
-The Spine Toolbox project example provided here can be used without any 
-limitations. This does not necessarily apply to any data files contained within.
+- **Mibel Day-ahead Input** contains the input of the **Run EMS** component. The schema that validates this input is available at ./MarketRunner/resources/generalSchema.json.
+- **Run EMS** executes the MIBEL day-ahead market (defined in the input of the previous component), validating it with the JSON schema available at <https://em.gecad.isep.ipp.pt/api/v1/mibel/schema>.
+- **Filter Player Result** filters the result of the market session executed in the previous component to a predefined player, passed as an argument.
+- **Print Player Result JSON** prints the result of the player selected in the previous tool in JSON format.
+- **Export Player Result Excel** exports the result of the player selected in the previous tool to an XLSX file.

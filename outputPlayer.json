@@ -1,0 +1,202 @@
+{
+    "playerPeriodsResult": [
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 1,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 2,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 3,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 4,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 5,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 6,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 7,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 8,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 9,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 10,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 11,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 12,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 13,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 14,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 15,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 16,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 17,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 18,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 19,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 20,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 21,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 22,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 23,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        },
+        {
+            "transactionType": "selling",
+            "profits": 2500,
+            "period": 24,
+            "marketPrice": 25,
+            "satisfied": 100,
+            "supply": 100
+        }
+    ],
+    "totalDemandSupply": 2400,
+    "totalCostsProfits": 60000,
+    "totalSatisfied": 2400,
+    "totalCostsProfitsByPeriodOffers": 60000,
+    "demandSupplyByPeriodOffers": 2400,
+    "playerId": "Player 3"
+}

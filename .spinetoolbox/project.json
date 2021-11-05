@@ -1,11 +1,171 @@
 {
     "project": {
         "version": 6,
-        "name": "toolbox-project-template",
-        "description": "This is a template for Spine Toolbox projects",
-        "specifications": {},
-        "connections": [],
-        "jumps": []
+        "name": "ems-restrade",
+        "description": "",
+        "specifications": {
+            "Tool": [
+                {
+                    "type": "path",
+                    "relative": true,
+                    "path": ".spinetoolbox/specifications/Tool/run_electricity_market_service.json"
+                },
+                {
+                    "type": "path",
+                    "relative": true,
+                    "path": ".spinetoolbox/specifications/Tool/print_player_result_json.json"
+                },
+                {
+                    "type": "path",
+                    "relative": true,
+                    "path": ".spinetoolbox/specifications/Tool/run_eletricity_market_service.json"
+                },
+                {
+                    "type": "path",
+                    "relative": true,
+                    "path": ".spinetoolbox/specifications/Tool/filter_player_result.json"
+                },
+                {
+                    "type": "path",
+                    "relative": true,
+                    "path": ".spinetoolbox/specifications/Tool/export_player_result_excel.json"
+                },
+                {
+                    "type": "path",
+                    "relative": true,
+                    "path": ".spinetoolbox/specifications/Tool/secondary.json"
+                },
+                {
+                    "type": "path",
+                    "relative": true,
+                    "path": ".spinetoolbox/specifications/Tool/ter&is.json"
+                }
+            ]
+        },
+        "connections": [
+            {
+                "from": [
+                    "Mibel Day-ahead Input",
+                    "right"
+                ],
+                "to": [
+                    "Run EMS",
+                    "left"
+                ]
+            },
+            {
+                "from": [
+                    "Run EMS",
+                    "right"
+                ],
+                "to": [
+                    "Filter Player Result",
+                    "left"
+                ]
+            },
+            {
+                "from": [
+                    "Filter Player Result",
+                    "right"
+                ],
+                "to": [
+                    "Print Player Result JSON",
+                    "left"
+                ]
+            },
+            {
+                "from": [
+                    "Filter Player Result",
+                    "bottom"
+                ],
+                "to": [
+                    "Export Player Result Excel",
+                    "left"
+                ]
+            },
+            {
+                "from": [
+                    "Export Player Result Excel",
+                    "right"
+                ],
+                "to": [
+                    "Secondary",
+                    "left"
+                ]
+            },
+            {
+                "from": [
+                    "Secondary",
+                    "right"
+                ],
+                "to": [
+                    "Ter&IS",
+                    "left"
+                ]
+            }
+        ]
     },
-    "items": {}
+    "items": {
+        "Mibel Day-ahead Input": {
+            "type": "Data Connection",
+            "description": "",
+            "x": -309.3469329364782,
+            "y": 23.978229535811643,
+            "references": []
+        },
+        "Print Player Result JSON": {
+            "type": "Tool",
+            "description": "",
+            "x": 304.84693293647814,
+            "y": -78.23455423586013,
+            "specification": "print player result json",
+            "execute_in_work": true,
+            "cmd_line_args": []
+        },
+        "Run EMS": {
+            "type": "Tool",
+            "description": "",
+            "x": -102.30890197809032,
+            "y": 17.21253171178948,
+            "specification": "run eletricity market service",
+            "execute_in_work": true,
+            "cmd_line_args": []
+        },
+        "Filter Player Result": {
+            "type": "Tool",
+            "description": "",
+            "x": 95.82514449927606,
+            "y": 16.23439501707873,
+            "specification": "filter player result",
+            "execute_in_work": true,
+            "cmd_line_args": []
+        },
+        "Export Player Result Excel": {
+            "type": "Tool",
+            "description": "",
+            "x": 286.9033932720952,
+            "y": 82.23455423586016,
+            "specification": "export player result excel",
+            "execute_in_work": false,
+            "cmd_line_args": []
+        },
+        "Secondary": {
+            "type": "Tool",
+            "description": "Run",
+            "x": 453.90619691771576,
+            "y": 105.8092148220351,
+            "specification": "Secondary",
+            "execute_in_work": false,
+            "cmd_line_args": []
+        },
+        "Ter&IS": {
+            "type": "Tool",
+            "description": "Tertiary and Imbalance Settlement",
+            "x": 561.2488786212297,
+            "y": 98.14188041464125,
+            "specification": "TER&IS",
+            "execute_in_work": false,
+            "cmd_line_args": []
+        }
+    }
 }
