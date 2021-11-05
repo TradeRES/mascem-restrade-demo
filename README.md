@@ -1,6 +1,8 @@
-# EMS-MIBEL-RESTrade
+# MASCEM-RESTrade Demo
 
-There are five components inside the EMS-MIBEL-RESTrade Spine ToolBox project:
+This demo runs MASCEM's MIBEL day-ahead session, filtering the results of a selected player as the input to run the RESTrade tool.
+
+There are five components inside the mascem-restrade-demo Spine ToolBox project:
 
 - **Mibel Day-ahead Input** contains the input of the **Run EMS** component. The schema that validates this input is available at ./MarketRunner/resources/generalSchema.json.
 - **Run EMS** executes the MIBEL day-ahead market (defined in the input of the previous component), validating it with the JSON schema available at <https://em.gecad.isep.ipp.pt/api/v1/mibel/schema>.
